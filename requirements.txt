@@ -1,3 +1,4 @@
 streamlit – for the web interface
 google-generativeai – Gemini API
 requests – for calling News API
+News API from newsapi.org
