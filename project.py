@@ -22,10 +22,11 @@ PROMPT_TEMPLATES = {
 }
 
 # ============================ Setup and Configuration ============================
+# function to configure gemeni API
 def configure_api():
     genai.configure(api_key=st.secrets["GOOGLE_API_KEY"])
     return genai.GenerativeModel("gemini-1.5-flash")
-
+# function for the news API
 def fetch_top_news(country: str = "us", category: str = "general") -> str:
     api_key = st.secrets["NEWS_API_KEY"]
     url = 'https://newsapi.org/v2/top-headlines'
