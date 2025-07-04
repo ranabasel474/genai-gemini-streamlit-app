@@ -1,4 +1,3 @@
 streamlit – for the web interface
 google-generativeai – Gemini API
-Pillow – image processing (used via from PIL import Image)
 requests – for calling News API
