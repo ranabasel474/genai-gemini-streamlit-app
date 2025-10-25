@@ -1,4 +1,3 @@
-```markdown
 # genai-gemini-streamlit-app
 
 A compact Streamlit demo that shows how to integrate GenAI (e.g., Google Gemini / Vertex AI) models into an interactive Python app.
@@ -43,5 +42,3 @@ A compact Streamlit demo that shows how to integrate GenAI (e.g., Google Gemini 
 ## Project layout (typical)
 - app.py — Streamlit entrypoint
 - requirements.txt — Python dependencies
-
-```
